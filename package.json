@@ -1,0 +1,29 @@
+{
+  "name": "ytchannel",
+  "version": "1.0.0",
+  "description": "A webpage with the info of my YouTube channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve --config webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johannpereze/ytchannel.git"
+  },
+  "keywords": [
+    "youtubeAPI"
+  ],
+  "author": "johannpereze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johannpereze/ytchannel/issues"
+  },
+  "homepage": "https://github.com/johannpereze/ytchannel#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
